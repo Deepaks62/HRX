@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+
+}
+
+.container{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./img/ston.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    width: 100%;
+    position: relative;
+}
+
+.logo{
+    width: 250px;
+    position: absolute;
+    top: -5px;
+}
+
+.nav-line{
+    cursor: pointer;
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    gap: 80px;
+    display: flex;
+}
+
+.box{
+    width: 80%;
+    height: 90%;
+    border-radius: 60px;
+    background-color: white;
+}
+
+.dot-img{
+    width: 100%;
+    height: 107vh;
+    border-radius: 60px;
+    display: flex;
+    /* background-image: url(./img/dt\ png.png); */
+}
+
+
+.persent{
+    width: 50%;
+    height: 108vh;
+    border-radius: 60px 0px 0px 60px;
+    
+}
+
+.box-m{
+    width: 700px;
+    height: 280px;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 30px;
+    background-color:rgb(215,217,221);
+    position: relative;
+}
+
+.phy{
+    position: absolute;
+    width: 440px;
+    z-index: 5;
+    
+}
+
+.ros{
+    position: absolute;
+    width: 400px;
+    margin-left: 350px;
+    margin-top:50px;
+    z-index: 0;
+}
+.Olive{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 79px;
+}
+
+.hearing{
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.box2{
+    position: relative;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 300px;
+    height: 100px;
+    background-color: #B1F042;
+}
+
+.ovl{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #3e3e3e;
+}
+
+.pre{
+    left: 20px;
+    top: 30px;
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 25px;
+}
+
+.box3{
+    border-radius: 30px;
+    margin-left: 400px;
+    margin-top: -100px;
+    width: 300px;
+    height: 100px;
+    background-color: #e2e2e2;
+    position: relative;
+}
+
+.shop{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #3e3e3e;
+}
+
+
+.All{
+    left: 20px;
+    top: 30px;
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 25px;
+}
+
+.present2{
+    width: 50%;
+    height: 108vh;
+    border-radius: 0px 60px 60px 0px;
+    position: relative;
+}
+
+.button{
+    cursor: pointer;
+    position: absolute;
+    width: 300px;
+    border-radius: 20px;
+    top:  60px;
+    left: 350px;
+    height: 60px;
+    background-color: #E1E3E7;
+}
+
+.heg{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.black{
+    position: absolute;
+    left: 150px;
+    top: 5px;
+    width:146px;
+    border-radius: 20px;
+    height: 51px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.lag{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 14px;
+}
+
+.perpul{
+    width: 650px;
+    height: 700px;
+    margin-top: 200px;
+    margin-left: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #B286FD;
+}
+
+.earphone{
+    width: 470px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.arow{
+    width: 180px;
+    margin-left: 150px;
+    margin-top: -35px;
+}
+
+.carts{
+    width: 270px;
+    margin-left: 120px;
+    margin-top: -55px;
+}
